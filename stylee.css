@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+box-sizing:  border-box;
+}
+
+body {
+background-color:black;
+font-family: "Roboto", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 200px;
+margin-top: 30px;
+overflow-x: hidden;
+
+background-image: url(2.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 100% 50%;
+}
+
+background{
+text-align: center;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1{
+	font-size: 90px;
+	color: #9525f0;
+	font-family: garamond;
+
+
+
+}
+
+h2.topic{ font-size: 50px;
+          color: purple;
+
+          font-family: helvetica;
+          font-weight: lighter;
+          line-height:0; }
+
+h3{ font-size: 50px; 
+    color: violet;
+    font-family: helvetica;
+font-weight: lighter;}
+
+
+
+.box{
+			background-color: hotpink;
+			color: #fff;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			width: 50%;
+			height: 60px;
+			margin: 15px;
+			border-radius: 40px;
+			box-shadow: 0px 3px 12px hotpink;
+			transform: translateX(400%);
+			transition: transform 0.8s ease;
+			margin-right: 800px;
+			position: relative;
+			
+		}
+
+.box:hover{
+	color: pink}
+
+		.box:nth-of-type(even) {
+                 transform: translateX(-400%);
+		}	
+
+		.box.show {
+			transform: translateX(0);
+		}
+
+		.box h2 {
+			font-size: 18px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: white;
+
+		}
+
+		h2 a{
+			color: white;
+			text-decoration: none;
+		}
+
